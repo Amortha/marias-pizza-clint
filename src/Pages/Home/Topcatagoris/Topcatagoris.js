@@ -11,7 +11,7 @@ const Topcatagoris = () => {
     return (
         <div className='mt-12 mx-12 lg:mx-32'>
             <div className='text-center'>
-                <h1 className='font-bold  text-2xl lg:text-4xl Alkatra'>Top <span className='text-red-500'>Categories</span></h1>
+                <h1 className='font-bold  text-2xl lg:text-4xl Alkatra'>Top <span className='text-red-600'>Categories</span></h1>
                 <img className='mx-auto' src={img} alt='img' />
             </div>
             <div className='grid lg:grid-cols-3 gap-8 mt-20'>

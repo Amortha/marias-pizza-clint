@@ -8,7 +8,7 @@ const Navbar = () => {
         <li className="text-white font-bold  mx-3 cursor-pointer hover:text-amber-400"><Link to="shop">SHOP</Link></li>
         <li className="text-white font-bold mx-3 cursor-pointer  hover:text-amber-400"><Link to="/">ABOUT US</Link></li>
         <li className="text-white font-bold mx-3 cursor-pointer  hover:text-amber-400"><Link to="/">CONTACT US</Link></li>
-        <li className="text-white font-bold mx-3 cursor-pointer hover:text-amber-400"> <Link to="/">BLOG</Link></li>
+        <li className="text-white font-bold mx-3 cursor-pointer hover:text-amber-400"> <Link to="blogings">BLOG</Link></li>
     </React.Fragment>
     return (
         <div className=" bg-black sticky top-0 z-50">

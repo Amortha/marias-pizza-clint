@@ -1,0 +1,50 @@
+[
+    {
+        "_id": 1,
+        "name": "Chondrika das",
+        "address": "Feni,Chittagong",
+        "post": "Customer",
+        "img": "https://i.ibb.co/Svm8MNz/chonrika.jpg",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "_id": 2,
+        "name": "Mohammd shafi",
+        "address": "Chittagong,Bangladesh",
+        "post": "Customer",
+        "img": "https://i.ibb.co/NTYgwB7/nayan.jpg",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "_id": 3,
+        "name": "Tasmia islam",
+        "address": "Dhaka,Bangladesh",
+        "post": "Customer",
+        "img": "https://i.ibb.co/hYpm1gN/shila.jpg",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "_id": 4,
+        "name": "Noyan Bonik",
+        "address": "ManikChari,khagrachari",
+        "post": "Customer",
+        "img": "https://i.ibb.co/3pY8Qsn/safi.jpg",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    { 
+        "_id": 5,
+        "name": "Rashal",
+        "address": "New Yourk,USA",
+        "post": "Customer",
+        "img": "https://i.ibb.co/YXmYNpK/rashal.jpg",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "_id": 6,
+        "name": "Shila paul",
+        "address": "Chittagong,Bangladesh",
+        "post": "Customer",
+        "img": "https://i.ibb.co/sbDsCvS/tasmia.jpg",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+]
