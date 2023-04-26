@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const menuItems = <React.Fragment>
         <li className="text-white font-bold mx-3 cursor-pointer hover:text-amber-400"> <Link to="/">HOME</Link></li>
-        <li className="text-white font-bold  mx-3 cursor-pointer hover:text-amber-400"><Link to="shop">SHOP</Link></li>
-        <li className="text-white font-bold mx-3 cursor-pointer  hover:text-amber-400"><Link to="/">ABOUT US</Link></li>
-        <li className="text-white font-bold mx-3 cursor-pointer  hover:text-amber-400"><Link to="/">CONTACT US</Link></li>
+        <li className="text-white font-bold  mx-3 cursor-pointer hover:text-amber-400"><Link to="shops">SHOP</Link></li>
+        <li className="text-white font-bold mx-3 cursor-pointer  hover:text-amber-400"><Link to="aboutus">ABOUT US</Link></li>
+        <li className="text-white font-bold mx-3 cursor-pointer  hover:text-amber-400"><Link to="contactus">CONTACT US</Link></li>
         <li className="text-white font-bold mx-3 cursor-pointer hover:text-amber-400"> <Link to="blogings">BLOG</Link></li>
     </React.Fragment>
     return (

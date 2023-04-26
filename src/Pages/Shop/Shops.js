@@ -1,18 +1,37 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import Sidebar from './Sidebar';
+import Shop from './Shop';
 
-const Shops = (props) => {
-    const  {img,name,price} = props.shop
+
+const Shops = () => {
+    const [shops, setShops] = useState([])
+    useEffect(() => {
+        fetch('/shop.json')
+            .then(res => res.json())
+            .then(data => setShops(data))
+    })
     return (
-        <div className='mt-20'>
-           <button>
-                <div className='shadow-2xl hover:-translate-y-1 hover:scale-110  duration-300'>
-                    <img className='w-72' src={img} alt='pic' />
-                    <h1 className='font-bold text-xl Alkatra'>{name}</h1>
-                    <h1 className='pb-4 text-xl text-red-500 Alkatra'>$ {price}</h1>
+        <div className=''>
+            <div className='w-full h-40 bg-zinc-300 text-center'>
+                <h1 className='pt-16 text-2xl Alkatra font-bold'>COLLECTION</h1>
+                <h1 className='text-2xl Alkatra'><Link to="/">Home</Link> /Products</h1>
+            </div>
+            <div className='flex mx-4 lg:mt-20 '>
+               <Sidebar></Sidebar>
+                <div className='w-full mx-4 grid lg:grid-cols-3 gap-7'>
+                    {
+                        shops.map(shop => <Shop
+                            shop={shop}
+                            key={shop._id}
+                        ></Shop>)
+                    }
                 </div>
-            </button>
+            </div>
         </div>
     );
 };
 
 export default Shops;
+
+
